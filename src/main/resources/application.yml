@@ -1,0 +1,14 @@
+spring:
+  banner:
+    charset: UTF-8
+    image:
+      location: banner/favicon.ico
+      width: 100
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+tfl:
+  display:
+    stations: Great Portland Street Underground Station
+  endpoint: https://api.tfl.gov.uk
