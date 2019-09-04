@@ -102,7 +102,6 @@ h2 {
 				table = "<table class='table table-dark'>"
 
 				table += "<thead><tr><th>Destination</th><th>Platform</th><th>Arrive In</th></tr></<thead>";
-				if (x) {
 					for (x in myJsonObj) {
 
 						if (myJsonObj[x].destinationName) {
@@ -158,10 +157,7 @@ h2 {
 
 						}
 					}
-				} else {
-					table += "<tbody><tr><td>The undeground is closing. There is no train available at this time.</td></tr>";
-
-				}
+				
 
 				table += "</tbody></table>"
 
@@ -192,7 +188,6 @@ h2 {
 
 				table1 = "";
 				
-				if (x) {
 					for (x in platforms) {
 						table1 += "<table class='table table-dark'><thead><tr><th scope='col' >Platform: "
 							+ x
@@ -245,10 +240,6 @@ h2 {
 						}
 
 					}
-				} else {
-					table1 += "<table class='table table-dark'><thead><tr><th scope='col' >Platform: </th></tr><tr><th scope='col'>Destination</th><th scope='col'>Arrive In</th></tr></thead>";
-					table1 += "<tbody><tr><td>The undeground is closing. There is no train available at this time.</td></tr>";
-				}
 
 				table1 += "</tbody></table>"
 
