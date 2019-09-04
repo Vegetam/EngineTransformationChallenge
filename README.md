@@ -14,7 +14,7 @@ mvn clean package
 ```
 the rest service can either be accessed via the [SwaggerUI](http://localhost:8080/swagger-ui.html)
 
-can use any rest tools line postman, Advanced Rest Client or by curling requests at the relevant endpoints documented below.
+It is possible use any rest tools line postman, Advanced Rest Client or by curling requests at the relevant endpoints documented below.
 
 API for search Train
 ```
