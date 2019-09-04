@@ -10,6 +10,10 @@ Gson use it to serialize and deserialize Java objects to (and from) JSON.
 
 Junit create few Junit testing with mockito
 
+JSP
+
+Bootstrap
+
 Maven using to build the project :
 ```$xslt
 mvn clean package
