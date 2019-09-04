@@ -28,8 +28,18 @@ GET "http://localhost:8080/api/trains/Eastbound - Platform 2"
 curl -X GET "http://localhost:8080/api/trains/Eastbound - Platform 2"
 ```
 
+##Note
+I configure few variable inside the application.yml file
+ex: station and endpoints
+
 ```
 Open web page in Browser
 ```
 **WEB/HTML Page**
 url: http://localhost:8080/home
+
+
+Here is what this application is doing :
+![website image][]
+
+[website image]: EngineTransformationChallenge/src/main/resources/image/immagine.png "Screenshot 1"
