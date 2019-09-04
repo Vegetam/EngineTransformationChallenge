@@ -42,4 +42,4 @@ url: http://localhost:8080/home
 Here is what this application is doing :
 ![website image][]
 
-[website image]: EngineTransformationChallenge/src/main/resources/image/immagine.png "Screenshot 1"
+[website image]: /image/Immagine.png "Screenshot 1"
