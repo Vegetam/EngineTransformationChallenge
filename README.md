@@ -34,7 +34,7 @@ GET "http://localhost:8080/api/trains/Eastbound - Platform 2"
 curl -X GET "http://localhost:8080/api/trains/Eastbound - Platform 2"
 ```
 
-##Note
+Note
 I configure few variable inside the application.yml file
 ex: station and endpoints
 
