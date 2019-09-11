@@ -1,24 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+
 <script type="text/javascript">
-		var obj, jsonParam, xmlhttp, myJsonObj, x, table, table1, platforms = "";
 
-		obj = {
-
-			table : "Trains",
-
-			limit : 20
-
-		};
-
-		jsonParam = JSON.stringify(obj);
 	xmlhttp.open("GET", "/api/trains", true);
 
 		xmlhttp.setRequestHeader("Content-type",
@@ -76,5 +60,3 @@
 
 		xmlplatformhttp.send("x=" + jsonParam);
 </script>
-</body>
-</html>
